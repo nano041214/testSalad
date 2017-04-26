@@ -16,6 +16,12 @@
 		27AEAA161EB068A600F3644B /* testSaladTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA151EB068A600F3644B /* testSaladTests.swift */; };
 		27AEAA211EB068A600F3644B /* testSaladUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA201EB068A600F3644B /* testSaladUITests.swift */; };
 		27AEAA2F1EB068C800F3644B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27AEAA2E1EB068C800F3644B /* GoogleService-Info.plist */; };
+		27AEAA341EB06F0B00F3644B /* Referenceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA301EB06F0B00F3644B /* Referenceable.swift */; };
+		27AEAA351EB06F0B00F3644B /* Salada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA311EB06F0B00F3644B /* Salada.swift */; };
+		27AEAA361EB06F0B00F3644B /* Salada+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA321EB06F0B00F3644B /* Salada+Datasource.swift */; };
+		27AEAA371EB06F0B00F3644B /* Salada+Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA331EB06F0B00F3644B /* Salada+Relation.swift */; };
+		27AEAA3A1EB06F2E00F3644B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA391EB06F2E00F3644B /* User.swift */; };
+		27AEAA3C1EB06F7F00F3644B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEAA3B1EB06F7F00F3644B /* Recipe.swift */; };
 		430E4FCA284FC1B82416F50C /* Pods_testSaladUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9140731F6B6BBA4722EE4D39 /* Pods_testSaladUITests.framework */; };
 		A44833D445ED86B63236E935 /* Pods_testSaladTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B4CEB2FD594D0C407B3025 /* Pods_testSaladTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +60,12 @@
 		27AEAA201EB068A600F3644B /* testSaladUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSaladUITests.swift; sourceTree = "<group>"; };
 		27AEAA221EB068A600F3644B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27AEAA2E1EB068C800F3644B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27AEAA301EB06F0B00F3644B /* Referenceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Referenceable.swift; sourceTree = "<group>"; };
+		27AEAA311EB06F0B00F3644B /* Salada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salada.swift; sourceTree = "<group>"; };
+		27AEAA321EB06F0B00F3644B /* Salada+Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salada+Datasource.swift"; sourceTree = "<group>"; };
+		27AEAA331EB06F0B00F3644B /* Salada+Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salada+Relation.swift"; sourceTree = "<group>"; };
+		27AEAA391EB06F2E00F3644B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		27AEAA3B1EB06F7F00F3644B /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		3CACB00A93C0607BC316C0E6 /* Pods-testSalad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSalad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testSalad/Pods-testSalad.debug.xcconfig"; sourceTree = "<group>"; };
 		76057B576DCC1C3BCECE83F5 /* Pods-testSaladTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSaladTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testSaladTests/Pods-testSaladTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C13D3961F115127C3EDDFB8 /* Pods-testSaladUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSaladUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testSaladUITests/Pods-testSaladUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +128,8 @@
 		27AEA9FF1EB068A600F3644B /* testSalad */ = {
 			isa = PBXGroup;
 			children = (
+				27AEAA3E1EB06FAF00F3644B /* Salada */,
+				27AEAA3D1EB06FA500F3644B /* Models */,
 				27AEAA001EB068A600F3644B /* AppDelegate.swift */,
 				27AEAA021EB068A600F3644B /* ViewController.swift */,
 				27AEAA041EB068A600F3644B /* Main.storyboard */,
@@ -143,6 +157,26 @@
 				27AEAA221EB068A600F3644B /* Info.plist */,
 			);
 			path = testSaladUITests;
+			sourceTree = "<group>";
+		};
+		27AEAA3D1EB06FA500F3644B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27AEAA391EB06F2E00F3644B /* User.swift */,
+				27AEAA3B1EB06F7F00F3644B /* Recipe.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		27AEAA3E1EB06FAF00F3644B /* Salada */ = {
+			isa = PBXGroup;
+			children = (
+				27AEAA301EB06F0B00F3644B /* Referenceable.swift */,
+				27AEAA311EB06F0B00F3644B /* Salada.swift */,
+				27AEAA321EB06F0B00F3644B /* Salada+Datasource.swift */,
+				27AEAA331EB06F0B00F3644B /* Salada+Relation.swift */,
+			);
+			name = Salada;
 			sourceTree = "<group>";
 		};
 		2CB61EA9EABF0056E430A9C2 /* Frameworks */ = {
@@ -453,8 +487,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AEAA341EB06F0B00F3644B /* Referenceable.swift in Sources */,
+				27AEAA351EB06F0B00F3644B /* Salada.swift in Sources */,
+				27AEAA361EB06F0B00F3644B /* Salada+Datasource.swift in Sources */,
 				27AEAA031EB068A600F3644B /* ViewController.swift in Sources */,
 				27AEAA011EB068A600F3644B /* AppDelegate.swift in Sources */,
+				27AEAA371EB06F0B00F3644B /* Salada+Relation.swift in Sources */,
+				27AEAA3A1EB06F2E00F3644B /* User.swift in Sources */,
+				27AEAA3C1EB06F7F00F3644B /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +753,7 @@
 				27AEAA271EB068A600F3644B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AEAA281EB068A600F3644B /* Build configuration list for PBXNativeTarget "testSaladTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +762,7 @@
 				27AEAA2A1EB068A600F3644B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AEAA2B1EB068A600F3644B /* Build configuration list for PBXNativeTarget "testSaladUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +771,7 @@
 				27AEAA2D1EB068A600F3644B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
